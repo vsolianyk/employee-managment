@@ -1,0 +1,9 @@
+{   
+  "defaultSeverity": "warning",
+  "extends": ["tslint-config-airbnb"],
+  "rules": {
+    "import-name": [false, { "case": "PascalCase" }],
+    "variable-name": { "options": [ "allow-pascal-case" ] },
+    "max-line-length": [true, { "limit": 160 }]
+  }
+}
